@@ -1,6 +1,6 @@
 import cv2
 
-# Dir to the image to downsize in filesystem
+# Input image
 img = cv2.imread(r'\**\downsampler\1001.png', cv2.IMREAD_UNCHANGED)
 
 print('Original Dimensions : ', img.shape)
